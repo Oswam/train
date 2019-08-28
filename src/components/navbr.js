@@ -3,7 +3,7 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import styles from '../css/navbar.module.css'
 import {FaAlignRight} from 'react-icons/fa'
 import link from '../constants/link'
-import logo from '../images/spacex.svg'
+import logo from '../images/youthedesigner.svg'
 
 const Navbar = () => {
 
