@@ -6,7 +6,7 @@ import StyledHero from '../examples/StyledHero'
 import Banner from '../components/Banner'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import {graphql} from 'gatsby'
-
+import Featured from '../components/home/Featured'
 
 
 export default ({data}) => {
@@ -22,7 +22,7 @@ return (
            </StyledHero>
            <Aboutsec></Aboutsec>
            <Servicesec></Servicesec>
-           
+           <Featured></Featured>
          </Layout>
         
      
